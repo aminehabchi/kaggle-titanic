@@ -1,0 +1,11 @@
+# Environment for the notebook and scripts/:
+#   python3 -m venv titanic && ./titanic/bin/pip install -r requirements.txt
+pandas==3.0.5
+numpy==2.5.2
+matplotlib==3.11.1
+seaborn==0.13.2
+scikit-learn==1.9.0
+jupyter==1.1.1
+ipykernel==7.3.0
+python-dotenv==1.2.3
+kaggle==2.2.4

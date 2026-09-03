@@ -1,0 +1,18 @@
+# Conda equivalent of requirements.txt - same pinned versions.
+#   conda env create -f environment.yml && conda activate titanic
+name: titanic
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - pip
+  - pip:
+      - pandas==3.0.5
+      - numpy==2.5.2
+      - matplotlib==3.11.1
+      - seaborn==0.13.2
+      - scikit-learn==1.9.0
+      - jupyter==1.1.1
+      - ipykernel==7.3.0
+      - python-dotenv==1.2.3
+      - kaggle==2.2.4

@@ -53,9 +53,13 @@ ipython_config.py
 Thumbs.db
 
 # ---- Project: data & artifacts ----
-# Competition data is downloaded from Kaggle, not committed.
+# The three competition CSVs ARE committed - the audit opens data/ expecting
+# them. Anything else downloaded into data/ stays out.
 data/*
 !data/.gitkeep
+!data/train.csv
+!data/test.csv
+!data/gender_submission.csv
 *.zip
 
 # Trained models & generated submissions
@@ -66,3 +70,6 @@ model/
 # submission.csv IS committed; anything else generated here is not.
 submissions/*
 !submissions/submission.csv
+
+# ---- Local notes, not part of the deliverable ----
+AUDIT.md
