@@ -1,0 +1,75 @@
+# ---- Byte-compiled / optimized ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ---- Distribution / packaging ----
+build/
+dist/
+sdist/
+wheels/
+*.egg-info/
+*.egg
+.eggs/
+MANIFEST
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+ENV/
+titanic/
+.python-version
+
+# ---- Environment / secrets ----
+.env
+.env.*
+!.env.example
+kaggle.json
+
+# ---- Testing / coverage / linters ----
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+.mypy_cache/
+.ruff_cache/
+.dmypy.json
+
+# ---- Jupyter / IPython ----
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# ---- Editors / OS ----
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# ---- Project: data & artifacts ----
+# The three competition CSVs ARE committed - the audit opens data/ expecting
+# them. Anything else downloaded into data/ stays out.
+data/*
+!data/.gitkeep
+!data/train.csv
+!data/test.csv
+!data/gender_submission.csv
+*.zip
+
+# Trained models & generated submissions
+model/
+*.pkl
+*.joblib
+*.h5
+# submission.csv IS committed; anything else generated here is not.
+submissions/*
+!submissions/submission.csv
+
+# ---- Local notes, not part of the deliverable ----
+AUDIT.md
