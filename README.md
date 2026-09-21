@@ -3,7 +3,8 @@
 Predicting which passengers survived the Titanic, for the
 [Kaggle Titanic competition](https://www.kaggle.com/c/titanic).
 
-**Kaggle username:** `ahabchi`  
+**Username:** `ahabchi_01EDU_Oujda_09_2026` (as in `username.txt`) — the Kaggle
+account holding the submissions is [`ahabchi`](https://www.kaggle.com/ahabchi).  
 **Best leaderboard score: 0.80861** (338 of 418 test passengers correct).
 
 The interesting part of this project is not the model. It is that a random
